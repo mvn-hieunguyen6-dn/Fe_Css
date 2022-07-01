@@ -1,0 +1,58 @@
+
+
+html {
+    color: crimson;
+    font-family: sans-serif;
+}
+
+[data-tooltip]::before {
+    content: attr(data-tooltip);
+    margin-right: 100px;
+}
+
+h1 {
+    width: calc(100% - 30px);
+    width: -moz-calc(100% - 30px);
+    width: -webkit-calc(100% - 30px);
+}
+
+
+
+.css-rgba {
+    width: 90px;
+    height: 300px;
+    background-color: rgba(119, 36, 228, 0.5);
+}
+.css-rgb {
+    width: 90px;
+    height: 300px;
+    background-color: rgb(0, 0, 0);
+}
+.css-rotate {
+    margin: 100px 0;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(190, 62, 62);
+    transform: rotate(90deg);
+}
+.css-scale{
+    background: #cc0000;
+    height: 50px;
+    margin: 0 auto;
+    width: 120px;
+    transform: scale(2,4);
+
+}
+.css-translate {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    transform: translate(20px, 10px);
+}
+
+.css-gradient {
+    margin-top: 80px;
+    width: 200px;
+    height: 100px;
+    background: linear-gradient(#7dc123, #eea148);
+}
